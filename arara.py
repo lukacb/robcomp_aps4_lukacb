@@ -17,18 +17,16 @@ class ProcessImage():
         self.bgr_lida[:int(height/2), int(width/3):int((width/3)*2),:] = 0
         self.bgr_lida[int(height/2):,:int(width/3),:] = 0
         self.bgr_lida[int(height/2):,int((width/3)*2):,:] = 0
-        
-    
-        cv2.imshow("", self.bgr_lida)
+
+    def show_image(self):
+        cv2.imshow("",self.bgr_lida)
         cv2.waitKey()
         cv2.destroyAllWindows()
-        print(width)
 
 def main():
     objeto = ProcessImage()
     objeto.run_image('img/arara.jpg')
     objeto.show_image()
-    objeto.show_channels()
 
 main()
 
