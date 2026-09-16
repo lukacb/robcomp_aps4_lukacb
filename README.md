@@ -3,9 +3,9 @@
 
 ## Integrantes do grupo:
 
-**Nome 1:**   ___
+**Nome 1:**   _Luka Cione Buchviser__
 
-* **email:** ___
+* **email:** _lukacb@al.insper.edu.br__
 
 **Nome 2:**   ___
 
